@@ -20,3 +20,19 @@ NearestNeighbors(3)
 |-|-|---|-|----|--|--|  
   
 
+##### 1. Dynamic Data Structure
+     Operation : Insert(x) : Adds a element with key x  
+                 Delete(x) : Removes the element with key x 
+Example : 
+|1|4|6|7|10|13|15|  
+|-|-|---|-|----|--|--|  
+
+Insert(3) 
+|1|3|4|6|7|10|13|15|  
+|-|-|-|---|-|----|--|--|  
+
+Delete(10)
+|1|3|4|6|7|13|15|  
+|-|-|-|---|----|--|--|  
+
+             
