@@ -41,10 +41,4 @@ Delete(10)
 |4| |7| 6 |    |  | 1|  
 |0|1|2| 3 | 4  |5 | 6|  
 
-Range search : Impossible      x  
-Neareast Search : Impossible   x  
-Insert :          O(1)         O  
-Delete :          O(1)         O  
-
-
 
