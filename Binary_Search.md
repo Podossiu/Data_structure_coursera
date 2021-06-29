@@ -6,5 +6,7 @@
      Operation : RangeSearch(x, y) : Returns all elements with keys btw x,y
                  Nearest Neighbors(z) : Returns the element with keys on either side of z
 ##### Example : 1 4 6 7 10 13 15
-<span style="color:red">내용</span>
+<span style="color:red">red</span>
+<span style="color:#d3d3d3">#d3d3d3</span>
+<span style="color:rgb(245, 235, 13)">rgb(245, 235, 13)</span>
 
