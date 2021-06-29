@@ -6,4 +6,4 @@
      Operation : RangeSearch(x, y) : Returns all elements with keys btw x,y
                  Nearest Neighbors(z) : Returns the element with keys on either side of z
 ##### Example : 1 4 6 7 10 13 15
-#####           1 4 **6 7 10** 13 15
+#####           1 4 __6 7 10__ 13 15
