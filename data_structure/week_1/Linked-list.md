@@ -8,25 +8,25 @@
 ##### Node Contains  
 ##### k : Key value 
 ##### Next Pointer  
-
+'''c++
 Template <typename T>
 struct Node{
     T Key;
     struct Node* next_pointer;
 };
-
+'''
 ### List API  
-PushFront(key)       : add to PushFront  
-T Topfront()         : return front item  
-PopFront()           : remove front item  
-PushBack(key)        : add to back also known as append  
-T TopBack()          : Return back item  
-PopBack()            : Remove back item  
-Boolean Find(key)    : is key in list ?  
-Erase(key)           : Remove key from list  
-Boolean Empty()      : empty list ?  
-AddBefore(Node, key) : adds key before Node  
-AddAfter(Node, key)  : adds key after Node  
+    PushFront(key)       : add to PushFront  
+    T Topfront()         : return front item  
+    PopFront()           : remove front item  
+    PushBack(key)        : add to back also known as append  
+    T TopBack()          : Return back item  
+    PopBack()            : Remove back item  
+    Boolean Find(key)    : is key in list ?  
+    Erase(key)           : Remove key from list  
+    Boolean Empty()      : empty list ?  
+    AddBefore(Node, key) : adds key before Node  
+    AddAfter(Node, key)  : adds key after Node  
 
 ### Times for Some operation
     PushFront           : O(1)  
@@ -66,22 +66,22 @@ struct Node{
 };  
 
 ### Times for Some operation
-PushFront           : O(1)  
-PopFront            : O(1)  
-  
-PushBack (No tail)  : O(n) -> traversal  
-PopBack  (No tail)  : O(n) -> traversal  
-TopBack  (No tail)  : O(n) -> traversal  
-  
-PushBack (with tail): O(1) -> no traversal with tail  
-**PopBack  (with tail): O(1) -> no need traversal with prev pointer**  
-TopBack  (with tail): O(1) -> no travsersal
-  
-Find(Key)           : O(n) -> traversal  
-Erase(key)          : O(n) -> traversal  
-Empty()             : O(1) -> head != NULL or size element
-**AddBefore         : O(1) -> no need traversal with prev pointer**   
-AddAfter            : O(1) -> no need travsersal 
+    PushFront           : O(1)  
+    PopFront            : O(1)  
+
+    PushBack (No tail)  : O(n) -> traversal  
+    PopBack  (No tail)  : O(n) -> traversal  
+    TopBack  (No tail)  : O(n) -> traversal  
+
+    PushBack (with tail): O(1) -> no traversal with tail  
+    **PopBack  (with tail): O(1) -> no need traversal with prev pointer**  
+    TopBack  (with tail): O(1) -> no travsersal
+
+    Find(Key)           : O(n) -> traversal  
+    Erase(key)          : O(n) -> traversal  
+    Empty()             : O(1) -> head != NULL or size element
+    **AddBefore         : O(1) -> no need traversal with prev pointer**   
+    AddAfter            : O(1) -> no need travsersal 
 
 ### Summary
 ##### Constant time to insert at or remove from the pointer
