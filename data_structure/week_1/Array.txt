@@ -1,0 +1,28 @@
+/*
+    Week 1 Array 
+--------------------------------------------------------------------------------------------------------------------   
+    Array
+    Def : Contiguous area of memory consisting of equal-size elements indexed by contiguous integers
+    Special : Constant-time access ( O(1) ) -> array_addr + element_size * ( i - first_index )
+---------------------------------------------------------------------------------------------------------------------
+    Multi-Deimensional Arrays
+    array_addr = elem_size * ((row_index - 1) * column_size + (column_index - 1))
+    1. Row-major (1,1)       2. Column-major (1,1)
+                 (1,2)                       (2,1)
+                 (1,3)                       (3,1)
+                 ...                           ....
+                 (2,1)                       (1,3)
+
+    Time Complexity :          Add                      Remove
+                    Beginning  O(n) -> duplicate        O(n)       -> pull element
+                    End        O(1)                     O(1)
+                    Middle     worst O(n) -> duplicate  worst O(n) -> pull element
+
+---------------------------------------------------------------------------------------------------------------------
+    Summary 
+    Array : Contiguous area of mem consisting of equal-size elemnts
+    Constant time access ( random access ) for any elements
+    Constant time to add/remove at the end
+    Linear time to add/remove at an Beggining or Middle ( arbitrary ) location
+
+*/              
