@@ -45,7 +45,7 @@ struct Node{
     Empty()             : O(1) -> head != NULL or size element
     AddBefore           : O(n) -> traversal cauz previous Node  
     AddAfter            : O(1) -> no need traversal
-
+----------------------------------------------------------------
 ### 2. Doubly Linked list
 
 
@@ -57,14 +57,14 @@ struct Node{
     k : Key value 
     Next Pointer  
     prev Pointer
-    ~~~C++
-    Template <typename T>  
-    struct Node{  
-        T Key;  
-        struct Node<T>* next_pointer;  
-        struct Node<T>* prev_pointer;  
-    };  
-    ~~~
+~~~C++
+Template <typename T>  
+struct Node{  
+    T Key;  
+    struct Node<T>* next_pointer;  
+    struct Node<T>* prev_pointer;  
+};  
+~~~
 ### Times for Some operation
     PushFront           : O(1)  
     PopFront            : O(1)  
@@ -82,10 +82,11 @@ struct Node{
     Empty()             : O(1) -> head != NULL or size element
     **AddBefore         : O(1) -> no need traversal with prev pointer**   
     AddAfter            : O(1) -> no need travsersal 
+--------------------------------------------------------------------------
 
 ### Summary
-##### Constant time to insert at or remove from the pointer
-##### With tail and doubly-linked, constant time to insert at or remove from the back
-##### O(n) time to find elements
-##### List elements need not be contiguous <-> array
-##### with doubly-linked list(prev_pointer) -> constant time to insert between nodes or remove nodes
+    Constant time to insert at or remove from the pointer  
+    With tail and doubly-linked, constant time to insert at or remove from the back  
+    O(n) time to find elements  
+    List elements need not be contiguous <-> array  
+    with doubly-linked list(prev_pointer) -> constant time to insert between nodes or remove nodes  
