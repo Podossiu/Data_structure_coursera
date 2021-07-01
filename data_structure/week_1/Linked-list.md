@@ -53,18 +53,18 @@ struct Node{
              7       10      4      13
         
 
-##### Node Contains  
-##### k : Key value 
-##### Next Pointer  
-##### prev Pointer
-
-Template <typename T>  
-struct Node{  
-    T Key;  
-    struct Node<T>* next_pointer;  
-    struct Node<T>* prev_pointer;  
-};  
-
+    ##### Node Contains  
+    ##### k : Key value 
+    ##### Next Pointer  
+    ##### prev Pointer
+    '''c++
+    Template <typename T>  
+    struct Node{  
+        T Key;  
+        struct Node<T>* next_pointer;  
+        struct Node<T>* prev_pointer;  
+    };  
+    '''
 ### Times for Some operation
     PushFront           : O(1)  
     PopFront            : O(1)  
