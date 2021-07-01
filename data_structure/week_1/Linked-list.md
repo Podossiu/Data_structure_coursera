@@ -29,22 +29,22 @@ AddBefore(Node, key) : adds key before Node
 AddAfter(Node, key)  : adds key after Node  
 
 ### Times for Some operation
-PushFront           : O(1)  
-PopFront            : O(1)  
+    PushFront           : O(1)  
+    PopFront            : O(1)  
   
-PushBack (No tail)  : O(n) -> traversal  
-PopBack  (No tail)  : O(n) -> traversal  
-TopBack  (No tail)  : O(n) -> traversal  
+    PushBack (No tail)  : O(n) -> traversal  
+    PopBack  (No tail)  : O(n) -> traversal  
+    TopBack  (No tail)  : O(n) -> traversal  
   
-PushBack (with tail): O(1) -> no traversal with tail  
-PopBack  (with tail): O(n) -> traversal for previous Node of tail  
-TopBack  (with tail): O(1) -> no travsersal
+    PushBack (with tail): O(1) -> no traversal with tail  
+    PopBack  (with tail): O(n) -> traversal for previous Node of tail  
+    TopBack  (with tail): O(1) -> no travsersal
   
-Find(Key)           : O(n) -> traversal  
-Erase(key)          : O(n) -> traversal  
-Empty()             : O(1) -> head != NULL or size element
-AddBefore           : O(n) -> traversal cauz previous Node  
-AddAfter            : O(1) -> no need traversal
+    Find(Key)           : O(n) -> traversal  
+    Erase(key)          : O(n) -> traversal  
+    Empty()             : O(1) -> head != NULL or size element
+    AddBefore           : O(n) -> traversal cauz previous Node  
+    AddAfter            : O(1) -> no need traversal
 
 ### 2. Doubly Linked list
 
