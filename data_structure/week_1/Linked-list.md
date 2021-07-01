@@ -8,13 +8,13 @@
 ##### Node Contains  
 ##### k : Key value 
 ##### Next Pointer  
-'''c++
+~~~
 Template <typename T>
 struct Node{
     T Key;
     struct Node* next_pointer;
 };
-'''
+~~~
 ### List API  
     PushFront(key)       : add to PushFront  
     T Topfront()         : return front item  
