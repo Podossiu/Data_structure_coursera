@@ -5,9 +5,9 @@
     head -> |-| -> |-| -> |-| -> |-| 
              7  -> 10  ->  4  ->  13
 
-    ##### Node Contains  
-    ##### k : Key value 
-    ##### Next Pointer  
+     **Node Contains**  
+     k : Key value 
+     Next Pointer  
 ~~~C++
 Template <typename T>
 struct Node{
@@ -51,12 +51,12 @@ struct Node{
 
     head -> |-| <-> |-| <-> |-| <-> |-| <- tail
              7       10      4      13
-        
+            |-|     |-|     |-|     |-|
 
-    ##### Node Contains  
-    ##### k : Key value 
-    ##### Next Pointer  
-    ##### prev Pointer
+    **Node Contains**  
+    k : Key value 
+    Next Pointer  
+    prev Pointer
     ~~~C++
     Template <typename T>  
     struct Node{  
